@@ -2,8 +2,6 @@
 using CodeBase.Ground;
 using CodeBase.Infrastructure.Assets;
 using CodeBase.Services;
-using CodeBase.Services.World;
-using CodeBase.UI;
 using UnityEngine;
 
 namespace CodeBase.Infrastructure.Factory

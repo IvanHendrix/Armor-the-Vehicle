@@ -90,8 +90,15 @@ namespace CodeBase.Enemy
 
             if (distance < _detectionRange)
             {
-                _enemyDeath.PlayDeath();
                 _isChasing = true;
+                return;
+            }
+
+            if (distance < 0.5f)
+            {
+                _isChasing = false;
+                _isFinishChase = false;
+                _enemyDeath.PlayDeath();
             }
         }
 

@@ -1768,6 +1768,7 @@ MonoBehaviour:
   _detectionRange: 10
   _minDistanceToTarget: 3
   _offSetDistance: 4
+  _enemyDeath: {fileID: 8410370863835310733}
   _enemyAnimator: {fileID: 7392541300093961693}
   _model: {fileID: 4098024568713909304}
 --- !u!114 &8410370863835310733
